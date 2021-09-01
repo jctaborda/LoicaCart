@@ -70,9 +70,9 @@
 								<a href="./register.html"> Register</a>
 							</div>
 						</div>
-						<a href="./cart.html" class="widget-header ps-3 ms-3">
+						<a href="{% url 'cart' %}" class="widget-header ps-3 ms-3">
 							<div class="icon icon-sm rounded-circle border"><i class="fas fa-shopping-cart"></i></div>
-							<span class="badge badge-pill badge-danger notify">0</span>
+							<span class="badge badge-pill badge-danger notify">{{ cart_count }}</span>
 						</a>
 					</div>
 				</div>
