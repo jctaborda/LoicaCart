@@ -1,4 +1,3 @@
-User Dashboard
 Store -> filter by variations or price
 Header -> contact mail and phone number info
 Header -> Change languaje and currency
