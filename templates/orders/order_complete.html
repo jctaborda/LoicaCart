@@ -28,7 +28,7 @@
                         <div class="col-lg-6">
                             <!-- col-lg-6 start here -->
                             <div class="invoice-from">
-                                <ul class="list-unstyled text-right">
+                                <ul class="list-unstyled text-end">
                                     <li><strong>Invoiced To</strong></li>
                                     <li>{{ order.first_name }} {{ order.last_name }}</li>
                                     <li>{{ order.address_line_1 }}, {{ order.address_line_2 }}</li>
@@ -80,16 +80,16 @@
                                         </tbody>
                                         <tfoot>
                                             <tr>
-                                                <th colspan="2" class="text-right">Sub Total:</th>
+                                                <th colspan="2" class="text-end">Sub Total:</th>
                                                 <th class="text-center">$ {{ subtotal }} USD</th>
                                             </tr>
                                             <tr>
-                                                <th colspan="2" class="text-right">Tax:</th>
+                                                <th colspan="2" class="text-end">Tax:</th>
                                                 <th class="text-center">$ {{ order.tax }} USD</th>
                                             </tr>
 
                                             <tr>
-                                                <th colspan="2" class="text-right">Grand Total:</th>
+                                                <th colspan="2" class="text-end">Grand Total:</th>
                                                 <th class="text-center">$ {{ order.order_total }} USD</th>
                                             </tr>
                                         </tfoot>
