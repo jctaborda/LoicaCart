@@ -4,4 +4,3 @@ Header -> Change languaje and currency
 Taxes -> option for different taxes
 checkout -> send mail to address in billing info or preload from account info
 Stock -> manage stock for different variations
-Images -> add option to load more product images
