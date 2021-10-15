@@ -34,7 +34,7 @@
 				<a href="{{ product.get_url }}" class="img-wrap"> <img src="{{ product.image.url }}"> </a>
 				<figcaption class="info-wrap">
 					<a href="{{ product.get_url }}" class="title">{{ product.product_name }}</a>
-					<div class="price mt-1">{{ product.price }}</div>
+					<div class="price mt-1">$ {{ product.price }}</div>
 					<div class="rating-star">
 						<span>
 							<i class="{% if product.averageReview >= 1 %}fas fa-star{% elif product.averageReview < 0.5 %}far fa-star{% else %}fas fa-star-half{% endif %}" aria-hidden="true"></i>
